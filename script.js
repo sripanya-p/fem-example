@@ -3,8 +3,9 @@ let buffer = "0";
 let previousOperator; // เพื่อใช้สำหรับตามว่า user พึ่งกดปุ่มอะไร
 const screen = document.querySelector('.screen'); // กำหนดให้ screen เลือก class screen
 
+// add more code
+
 document.querySelector('.calc-buttons').addEventListener("click", function (event) {
-    // console.log('here');
     // console.log(event.target.innerText);
     buttonClick(event.target.innerText);
 });
